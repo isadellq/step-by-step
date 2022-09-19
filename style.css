@@ -12,7 +12,7 @@ header {
     color: #fff;
 }
 section {
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto; 
     border-bottom: 1px solid #ccc;
     padding-bottom: 40px; 
