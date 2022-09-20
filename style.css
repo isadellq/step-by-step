@@ -13,6 +13,7 @@ header {
 }
 section {
     max-width: 700px;
+    padding: 0 24px;
     margin: 0 auto; 
     border-bottom: 1px solid #ccc;
     padding-bottom: 40px; 
@@ -78,4 +79,10 @@ footer li:hover{
 footer p{
     font-size: 14px;
     color: #333;
+}
+
+@media (max-width: 870px) {
+    footer li{
+        width: 100%;
+    } 
 }
